@@ -10,7 +10,7 @@ workflows:
       - orb-tools/lint
       - orb-tools/publish-dev:
           checkout: true
-          orb-name: honeycombio/buildevents
+          orb-name: carwow/buildevents
           orb-path: orb.yml
           publish-alpha-version: false
           publish-sha-version: false
